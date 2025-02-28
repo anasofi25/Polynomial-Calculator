@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="356.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pt2024_30425_candeaana_a1.CalculatorController">
+   <children>
+      <TextField fx:id="polynomial1TextField" layoutX="14.0" layoutY="39.0" prefHeight="26.0" prefWidth="246.0" promptText="Enter polynomial 1..." />
+      <TextField fx:id="polynomial2TextField" layoutX="14.0" layoutY="83.0" prefHeight="26.0" prefWidth="246.0" promptText="Enter polynomial 2..." />
+      <Button fx:id="add" layoutX="22.0" layoutY="143.0" mnemonicParsing="false" onAction="#add" text="Add" />
+      <Button fx:id="subtract" layoutX="85.0" layoutY="143.0" mnemonicParsing="false" onAction="#subtract" text="Subtract" />
+      <Button fx:id="multiply" layoutX="164.0" layoutY="143.0" mnemonicParsing="false" onAction="#multiply" text="Multiply" />
+      <TextArea fx:id="resultTextArea" layoutY="304.0" prefHeight="95.0" prefWidth="356.0" promptText="Result" />
+      <Button fx:id="derivate" layoutX="55.0" layoutY="200.0" mnemonicParsing="false" onAction="#differentiate" text="Derivate" />
+      <Button fx:id="integrate" layoutX="132.0" layoutY="200.0" mnemonicParsing="false" onAction="#integrate" text="Integrate" />
+   </children>
+</AnchorPane>
